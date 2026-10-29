@@ -1,0 +1,17 @@
+{
+  "name": "college-notice-board",
+  "version": "1.0.0",
+  "description": "Digital Notice Board for Colleges - MERN Stack Web Application",
+  "main": "backend/server.js",
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend": "npm --prefix frontend run dev",
+    "seed": "node backend/seed/seedData.js",
+    "test": "node backend/test_audit.js",
+    "server": "node backend/server.js",
+    "client": "npm --prefix frontend run dev"
+  },
+  "keywords": ["college", "notice-board", "mern", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
